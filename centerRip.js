@@ -61,4 +61,7 @@ setTimeout(function () {
 			settleDate: settle.replaceAll("Settle Date ", "")
 		});
 	}
+
+	copy(finalArr);
 }, 4000);
+
